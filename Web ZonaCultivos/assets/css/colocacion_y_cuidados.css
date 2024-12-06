@@ -1,0 +1,127 @@
+/* assets/css/colocacion_y_cuidados.css */
+
+/* Sección Colocación y Cuidados */
+#colocacion-y-cuidados {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#colocacion-y-cuidados h1 {
+    font-size: 2.5rem;
+    color: #004aad;
+    margin-bottom: 40px;
+    font-family: 'Zing Rust Base', sans-serif;
+    text-align: center;
+}
+
+#colocacion-y-cuidados h2 {
+    font-size: 2rem;
+    color: #004aad;
+    margin-bottom: 20px;
+    font-family: 'Zing Rust Base', sans-serif;
+    text-align: center;
+}
+
+#colocacion-y-cuidados h3 {
+    font-size: 1.5rem;
+    color: #004aad;
+    margin-bottom: 10px;
+    font-family: 'Zing Rust Base', sans-serif;
+}
+
+#colocacion-y-cuidados p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Listas */
+#colocacion-y-cuidados ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#colocacion-y-cuidados .cuidados-list,
+#colocacion-y-cuidados .colocacion-list {
+    margin-top: 20px;
+}
+
+/* Ítems de Cuidados y Colocación */
+#colocacion-y-cuidados .cuidados-item,
+#colocacion-y-cuidados .colocacion-item {
+    margin-bottom: 20px;
+}
+
+/* Galería de Fotos */
+#colocacion-y-cuidados .fotos-colocacion h3 {
+    font-size: 1.8rem;
+    color: #004aad;
+    margin-bottom: 20px;
+    font-family: 'Zing Rust Base', sans-serif;
+    text-align: center;
+}
+
+#colocacion-y-cuidados .fotos-colocacion img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effects para Imágenes */
+#colocacion-y-cuidados .fotos-colocacion img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    #colocacion-y-cuidados {
+        padding: 40px 10px;
+    }
+
+    #colocacion-y-cuidados h1 {
+        font-size: 2rem;
+    }
+
+    #colocacion-y-cuidados h2 {
+        font-size: 1.8rem;
+    }
+
+    #colocacion-y-cuidados h3 {
+        font-size: 1.3rem;
+    }
+
+    #colocacion-y-cuidados .fotos-colocacion img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    #colocacion-y-cuidados {
+        padding: 30px 10px;
+    }
+
+    #colocacion-y-cuidados h1 {
+        font-size: 1.8rem;
+    }
+
+    #colocacion-y-cuidados h2 {
+        font-size: 1.5rem;
+    }
+
+    #colocacion-y-cuidados h3 {
+        font-size: 1.1rem;
+    }
+
+    #colocacion-y-cuidados .fotos-colocacion img {
+        height: 150px;
+    }
+}
+
+
