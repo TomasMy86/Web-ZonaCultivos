@@ -1,0 +1,209 @@
+/* assets/css/nuestros_productos.css */
+
+/* Sección Productos */
+#nuestros-productos {
+    background-color: var(--color-blanco);
+    padding: 60px 20px;
+    font-family: 'Lato', sans-serif;
+    color: var(--color-negro);
+}
+
+/* Títulos de la Sección */
+#nuestros-productos h1 {
+    font-size: 2.5rem;
+    color: var(--color-verde);
+    margin-bottom: 40px;
+    font-family: 'Anton', sans-serif; /* Títulos con Anton */
+    text-align: center;
+}
+
+#nuestros-productos h2 {
+    font-size: 2rem;
+    color: var(--color-verde);
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif; /* Subtítulos con Open Sans */
+    text-align: center;
+}
+
+/* Párrafos */
+#nuestros-productos p {
+    font-size: 1rem;
+    color: var(--color-negro);
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif; /* Texto con Lato */
+}
+
+/* Carrusel de Césped Natural */
+.cesped-natural .carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Imágenes del Carrusel */
+.cesped-natural .carousel-item img {
+    width: 100%;
+    height: 400px; /* Ajusta según tu preferencia */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Carrusel Caption con Gradiente Semitransparente */
+.cesped-natural .carousel-caption {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)); /* Gradiente semitransparente */
+    border-radius: 10px;
+    padding: 15px;
+    color: var(--color-blanco); /* Texto en blanco */
+    backdrop-filter: blur(5px); /* Opcional: efecto de desenfoque */
+}
+
+/* Títulos y Párrafos dentro de las Captions */
+.cesped-natural .carousel-caption h5 {
+    font-size: 1.5rem;
+    color: var(--color-blanco);
+    font-family: 'Open Sans', sans-serif; /* Subtítulos con Open Sans */
+    margin-bottom: 10px;
+}
+
+.cesped-natural .carousel-caption p {
+    font-size: 1rem;
+    color: var(--color-blanco) !important;
+    font-family: 'Lato', sans-serif; /* Texto con Lato */
+}
+
+/* Imagen de Plantas */
+.plantas img {
+    max-width: 600px; /* Ancho uniforme */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    /* Añadido margen inferior para aumentar el espacio */
+    margin-bottom: 40px; /* Puedes ajustar este valor según tus necesidades */
+}
+
+/* Envíos y Condiciones */
+.envios-condiciones img {
+    width: 100%;
+    max-width: 600px; /* Ancho uniforme */
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px; /* Márgen superior */
+    margin-bottom: 40px
+    /* Opcional: puedes ajustar el margen superior si es necesario */
+    /* margin-top: 30px; */
+}
+
+/* Envíos y Condiciones Texto */
+.envios-condiciones p {
+    font-size: 1rem;
+    color: var(--color-negro);
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Lato', sans-serif; /* Texto con Lato */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    #nuestros-productos {
+        padding: 40px 10px;
+    }
+
+    #nuestros-productos h1 {
+        font-size: 2rem;
+    }
+
+    #nuestros-productos h2 {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    .cesped-natural .carousel-item img {
+        height: 300px;
+    }
+
+    .cesped-natural .carousel-caption h5 {
+        font-size: 1.3rem;
+    }
+
+    .cesped-natural .carousel-caption p {
+        font-size: 0.9rem;
+    }
+
+    .envios-condiciones {
+        padding: 30px 15px;
+    }
+
+    .envios-condiciones h2 {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .envios-condiciones p {
+        font-size: 0.9rem;
+    }
+
+    .envios-condiciones img {
+        max-width: 400px; /* Ajustado para coherencia */
+    }
+}
+
+@media (max-width: 480px) {
+    #nuestros-productos {
+        padding: 30px 10px;
+    }
+
+    #nuestros-productos h1 {
+        font-size: 1.8rem;
+    }
+
+    #nuestros-productos h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .cesped-natural .carousel-item img {
+        height: 200px;
+    }
+
+    .cesped-natural .carousel-caption h5 {
+        font-size: 1.1rem;
+    }
+
+    .cesped-natural .carousel-caption p {
+        font-size: 0.8rem;
+    }
+
+    .envios-condiciones h2 {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .envios-condiciones p {
+        font-size: 0.8rem;
+    }
+
+    .envios-condiciones img {
+        max-width: 300px; /* Ajustado para coherencia */
+    }
+}
+
+/* Personalización de los Controles del Carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
